@@ -211,10 +211,10 @@
     </a>
     <% } %>
   </h1>
-    <div Talk is cheap, Show me the code
+    <div 
     <% if (tabCls === 'users') { %>
       <% if (type === 'global') { %>
-        <a href="https://github.com/search?q=followers%3A%3E1000&type=Users">Github API v3</a>.
+        <a href="https://github.com/search?q=followers%3A%3E1000&type=Users">Powered by Github API v3</a>.
       <% } %>
       <% if (type === 'org') { %>
         <a href="https://github.com/search?q=location%3AChina+followers%3A%3E1000&type=Organization">Github API v3</a>.
@@ -227,8 +227,8 @@
       <% } %>
     <% if (tabCls === 'trending') { %>
       <a href="https://github.com/trending">Github Trending</a>.
-/*    <% } %> Create by <a href="https://jaywcjlove.github.io/#/sponsor" target="_blank">小弟调调™</a>.
- */  </div>
+   <% } %> Create by <a href="https://jaywcjlove.github.io/#/sponsor" target="_blank">Talk is cheap, Show me the code</a>.
+  </div>
   <div class="tabs">
     <a class="<%= tabCls === 'users' ? 'active': '' %>" href="index.html">Users</a>
     <a class="<%= tabCls === 'repos' ? 'active': '' %>" href="repos.html">Repos</a>
