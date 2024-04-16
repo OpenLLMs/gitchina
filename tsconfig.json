@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "node16",
+    "moduleResolution": "Node16",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noEmit": false,
+    "outDir": "lib",
+    "baseUrl": "."
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
