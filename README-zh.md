@@ -73,7 +73,7 @@ import users from '@wcj/github-rank';
     "rank": 117,
     "name": "小弟调调™",
     "company": "ʕ•̫͡•ʔ-̫͡-ʕ•͓͡•ʔ-̫͡-ʔ",
-    "blog": "http://gitchina.com",
+    "blog": "http://wangchujiang.com",
     "location": "Shanghai, China",
     "email": "wowohoo@qq.com",
     "hireable": true,
